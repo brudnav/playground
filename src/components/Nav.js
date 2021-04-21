@@ -5,7 +5,7 @@ const Nav = ({libraryStatus,setLibraryStatus}) =>
 {
     return(
         <nav>
-           <h2>Heading</h2>
+           <h2>Head</h2>
            <button onClick={() => setLibraryStatus(!libraryStatus)}>Library</button>
         </nav>
     );
